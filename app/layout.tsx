@@ -9,6 +9,9 @@ config.autoAddCss = false
 export const metadata = {
   title: 'The Fise™ - Photography by Agnel Francis Olakkengil',
   description: 'High-quality, minimalistic photography for all life events',
+  icons: {
+    icon: '/icons/favicon.ico', // Path to the favicon
+  },
 }
 
 export default function RootLayout({
