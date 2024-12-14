@@ -17,7 +17,7 @@ export const products: Product[] = [
     name: "GreenPlay: Gradient Instagram Highlight Cover Pack",
     description: "Level up your Instagram profile with GreenPlay, a sleek, football-inspired gradient highlight cover pack! 🍃⚽️ Perfect for adding a fresh, vibrant touch to your story highlights, this collection is designed to make your profile pop with clean, green-themed gradients. Whether you're into football or just love a minimal look, GreenPlay has you covered. 💚\n\nGet your profile game strong with this bold, eye-catching pack! Ideal for sports lovers, minimalists, and trendsetters alike. 💥\n\nDownload now and let your highlights shine! 🌟",
     price: 1,
-    thumbnail: "https://i.postimg.cc/pTwMjmxC/Champions-League-16.png",
+    thumbnail: "/images/greenplay_main.png",
     mainImage: "https://public-files.gumroad.com/d2t6bah8aseenrur5f7wryu0oq8g",
     images: [
       "https://public-files.gumroad.com/d2t6bah8aseenrur5f7wryu0oq8g",
