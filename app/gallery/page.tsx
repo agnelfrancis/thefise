@@ -9,12 +9,7 @@ export default function Gallery() {
 
   // This would ideally be fetched from a CMS or database
   const images = [
-    { src: 'https://i.imghippo.com/files/TYVn2470kxs.png', alt: 'Sunny Day Photo' },
-    { src: '/placeholder.svg?height=300&width=400', alt: 'Portrait' },
-    { src: '/placeholder.svg?height=300&width=400', alt: 'Baptism ceremony' },
-    { src: '/placeholder.svg?height=300&width=400', alt: 'Family photo' },
-    { src: '/placeholder.svg?height=300&width=400', alt: 'Landscape' },
-    { src: '/placeholder.svg?height=300&width=400', alt: 'Event photography' },
+    { src: '/gallery/outside.png', alt: 'Sunny Day Photo' }
   ]
 
   return (
