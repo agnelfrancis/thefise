@@ -5,6 +5,7 @@ import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { ShoppingCart } from 'lucide-react'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -21,6 +22,7 @@ export default function Header() {
             <li><Link href="/contact" className="text-green-800 hover:text-green-600">Contact</Link></li>
             <li><Link href="/book" className="text-green-800 hover:text-green-600">Book a Session</Link></li>
             <li><Link href="/edit-images" className="text-green-800 hover:text-green-600">Edit Images</Link></li>
+            <li><Link href="/store" className="text-green-800 hover:text-green-600 flex items-center"><ShoppingCart className="mr-1 h-4 w-4" /> Store</Link></li>
           </ul>
         </nav>
         <div className="hidden md:flex space-x-2">
@@ -45,6 +47,7 @@ export default function Header() {
               <li><Link href="/contact" className="text-green-800 hover:text-green-600">Contact</Link></li>
               <li><Link href="/book" className="text-green-800 hover:text-green-600">Book a Session</Link></li>
               <li><Link href="/edit-images" className="text-green-800 hover:text-green-600">Edit Images</Link></li>
+              <li><Link href="/store" className="text-green-800 hover:text-green-600 flex items-center"><ShoppingCart className="mr-1 h-4 w-4" /> Store</Link></li>
             </ul>
           </nav>
         </div>
